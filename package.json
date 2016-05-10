@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build && npm run dev",
-    "dev": "webpack-dev-server --devtool eval --progress --content-base build",
+    "dev": "webpack-dev-server",
     "build": "webpack",
     "dist": "NODE_ENV=production webpack -p --config webpack.prod.config.js",
     "lint": "gulp lint"

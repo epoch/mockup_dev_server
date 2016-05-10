@@ -33,5 +33,10 @@ module.exports = {
   },
   plugins: [new htmlPlugin({
     template: path.join(__dirname, 'src', 'index.html')
-  })]
+  })],
+  devServer: {
+    port: 3001, // pick your port number
+    devtool: 'eval',
+    contentBase: path.join(__dirname, 'build')
+  }
 }
