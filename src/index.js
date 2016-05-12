@@ -1,4 +1,5 @@
 import './style.css';
+import './style.scss';
 
 var doSomething = () => {
   return 'es6 arror functions working';
